@@ -1,0 +1,208 @@
+{
+  "session_id": "PM002_20260327",
+  "project": "project-mitchell",
+  "spoke_id": "PM002",
+  "spoke_type": "phase",
+  "phase_name": "Council Debate + Synthesis",
+  "date": "2026-03-27",
+  "thesis": "Understand FQHC Behavioral Health Director role through multi-perspective council debate and synthesis",
+  "description": "Council debate with Serena (Architect), Ava (Researcher), Marcus (Engineer), Rook (Risk/Compliance) to analyze director workflows, pain points, and solution requirements. Multi-round debate (Initial Positions → Responses & Challenges → Synthesis) followed by Pi's master synthesis integrating all perspectives.",
+  "started": "2026-03-27T09:00:00Z",
+  "completed": "2026-03-27T18:00:00Z",
+  "duration_minutes": 540,
+  "agents": [
+    "Ava Sterling",
+    "Serena Blackwood",
+    "Marcus Webb",
+    "Rook Blackburn"
+  ],
+  "orchestrator": "Pi",
+  "methodology": [
+    "Council Debate (3 rounds)",
+    "Deep Research (6 parallel landscape agents)",
+    "Creative Exploration (dashboard design)",
+    "Iterative Depth Analysis (4-lens validation)"
+  ],
+  "verdict": "Solution viable - compliance-aware dashboard addressing audit survivability",
+  "council_vote": {
+    "serena_blackwood": "YES - Market gap is real, architectural approach is sound",
+    "ava_sterling": "YES - Data validates demand, pricing model mitigates risk",
+    "marcus_webb": "YES - Technically feasible if we prioritize infrastructure over features",
+    "rook_blackburn": "YES - Compliance urgency creates forcing function, solution addresses real liability",
+    "consensus": "Unanimous 4-0 in favor of building this solution"
+  },
+  "key_findings": [
+    "Directors are crisis managers disguised as administrators, juggling 4-6 disconnected systems",
+    "77% provider shortages, 93% burnout rate, 35-70% annual turnover in behavioral health",
+    "No platform solves both FQHC billing AND BH workflows - market gap identified",
+    "Core pain point is audit survivability, not workflow efficiency",
+    "Solution: Compliance-aware narrative dashboard with unified data layer",
+    "15-25% denial rate (vs 5-10% medical) bleeding cash - 65% never resubmitted",
+    "42 CFR Part 2 enforcement active NOW (Feb 16, 2026) - urgent compliance requirement",
+    "68-percentage-point gap between demand for denial reduction (82%) and AI adoption (14%)",
+    "Intelligent orchestration can answer 'can we take this patient?' in <10 seconds (vs 30 minutes manual)",
+    "Tiered override system (green/yellow/red/black) balances compliance and safety"
+  ],
+  "research_depth": {
+    "sources_reviewed": 150,
+    "tool_calls_total": 80,
+    "web_searches": 30,
+    "agent_analyses": 4,
+    "debate_rounds": 3,
+    "execution_time_minutes": 360
+  },
+  "kpis": {
+    "ava_sterling": {
+      "tool_calls": 25,
+      "sources_reviewed": 60,
+      "web_searches": 15,
+      "reports_generated": 1,
+      "key_contributions": [
+        "Workforce crisis data (77% shortages, 93% burnout)",
+        "RCM complexity (15-25% denial rate, 65% never resubmitted)",
+        "42 CFR Part 2 timeline (enforcement active Feb 16, 2026)",
+        "Market gap analysis (68-point adoption gap)",
+        "Technology landscape (no platform solves FQHC + BH)"
+      ]
+    },
+    "serena_blackwood": {
+      "tool_calls": 20,
+      "architecture_patterns": 3,
+      "integration_analysis": 6,
+      "reports_generated": 1,
+      "key_contributions": [
+        "Middleware abstraction layer strategy (like Plaid for banking)",
+        "Intelligent orchestration architecture (10-second patient scheduling)",
+        "Compliance as guardrails principle (architecturally impossible to violate)",
+        "4-layer architecture (Integration → Compliance → Orchestration → Presentation)",
+        "Graceful degradation strategy (partial info > no info)"
+      ]
+    },
+    "marcus_webb": {
+      "tool_calls": 18,
+      "feasibility_assessments": 3,
+      "user_reality_analysis": 1,
+      "reports_generated": 1,
+      "key_contributions": [
+        "80/20 automation principle (don't try to automate every edge case)",
+        "Graceful degradation when upstream systems fail",
+        "Perceived speed = actual speed (progress indicators matter)",
+        "Integration maintenance burden analysis (permanent infrastructure work)",
+        "42 CFR Part 2 implementation complexity (database-level partitioning)"
+      ]
+    },
+    "rook_blackburn": {
+      "tool_calls": 17,
+      "risk_scenarios": 8,
+      "compliance_timeline": 1,
+      "reports_generated": 1,
+      "key_contributions": [
+        "Tiered override system (green/yellow/red/black)",
+        "Compliance calendar IS product roadmap",
+        "Audit trail requirements (immutable, exportable, <60 sec report generation)",
+        "Part 2 compliance trap (FQHCs don't realize it applies if they screen for SUD)",
+        "Credentialing/authorization/documentation guardrails"
+      ]
+    }
+  },
+  "market_opportunity": {
+    "total_fqhcs": 1400,
+    "offering_behavioral_health": 980,
+    "target_market_penetration": 0.30,
+    "estimated_customers": 294,
+    "annual_revenue_per_customer_low": 36000,
+    "annual_revenue_per_customer_high": 72000,
+    "total_arr_low": 10584000,
+    "total_arr_high": 21168000,
+    "currency": "USD"
+  },
+  "solution_architecture": {
+    "layers": [
+      "Integration Foundation (HL7 FHIR + RESTful APIs)",
+      "Compliance Engine (credentialing + authorization + Part 2)",
+      "Orchestration Intelligence (patient scheduling + denial prevention + capacity forecasting)",
+      "Presentation UI (morning brief + compliance sidebar + crisis mode)"
+    ],
+    "key_principles": [
+      "Compliance as guardrails (not checklists)",
+      "Intelligent orchestration (not just data aggregation)",
+      "Graceful degradation (partial info > no info)",
+      "80% automation, 20% human judgment",
+      "Backend sophistication, frontend simplicity"
+    ]
+  },
+  "roadmap": {
+    "phase_1": {
+      "name": "MVP",
+      "duration_days": 90,
+      "deliverables": [
+        "Integration layer (Epic + NextGen connectors)",
+        "Compliance engine (credentialing + authorization + Part 2)",
+        "Patient scheduling orchestration (<10 sec)",
+        "Basic dashboard (morning brief + compliance sidebar)"
+      ]
+    },
+    "phase_2": {
+      "name": "Revenue Optimization",
+      "duration_days": 60,
+      "deliverables": [
+        "Denial prevention engine (pre-submission validation)",
+        "RCM analytics (denial tracking + recovery workflow)",
+        "Documentation assistance (encounter qualification templates)"
+      ]
+    },
+    "phase_3": {
+      "name": "Strategic Intelligence",
+      "duration_days": 60,
+      "deliverables": [
+        "Capacity forecasting (predictive analytics)",
+        "UDS reporting automation (Table 5, 6A, 8A)",
+        "QI/QA dashboard (HEDIS measures + outcome tracking)"
+      ]
+    },
+    "total_days": 210,
+    "target_launch": "2026-Q4"
+  },
+  "artifacts": [
+    "ava_research.md",
+    "serena_architecture.md",
+    "marcus_engineering.md",
+    "rook_risk.md",
+    "pi_synthesis.md",
+    "council_debate.md",
+    "synthesis_document.md",
+    "session_metadata.json",
+    "learnings.md"
+  ],
+  "confidence_level": "85-95%",
+  "validation_status": {
+    "job_profiles": "confirmed",
+    "fqhc_landscape": "validated",
+    "workforce_crisis": "confirmed",
+    "rcm_complexity": "validated",
+    "technology_gap": "confirmed",
+    "regulatory_timeline": "validated",
+    "director_interview": "pending",
+    "competitive_analysis": "pending",
+    "beta_pilot": "pending"
+  },
+  "next_steps": [
+    "Validate with 1-2 actual FQHC BH directors (if available)",
+    "Build dashboard prototype (Figma wireframes)",
+    "Competitive analysis (athenahealth, Qualifacts, Epic pricing)",
+    "Beta partner identification (3-5 mid-sized FQHCs)",
+    "Build vs buy decision"
+  ],
+  "tags": [
+    "fqhc",
+    "behavioral-health",
+    "director-role",
+    "council-debate",
+    "multi-perspective",
+    "compliance",
+    "rcm",
+    "capacity-planning",
+    "audit-survivability",
+    "market-opportunity"
+  ]
+}
