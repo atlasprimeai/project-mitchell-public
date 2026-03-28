@@ -43,7 +43,7 @@ Multi-modal AI investigation into the role of Behavioral Health Directors at Fed
 
 ## Live Hub
 
-🌐 **[View Research Hub](https://atlasprimeai.github.io/project-mitchell-public/)**
+🌐 **[View Research Hub](https://atlasprimeai.gitlab.io/project-mitchell/)**
 
 ## About Atlas Prime AI
 
